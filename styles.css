@@ -1955,4 +1955,21 @@ body.dark-mode .timeline-year-badge {
 }
 body.dark-mode .timeline-card h3, body.dark-mode .timeline-card p {
     color: #f0f0f0 !important;
+}
+
+.contact-info p span[aria-label] {
+    margin-right: 8px;
+}
+
+.activity-photo {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 32px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    vertical-align: middle;
+}
+@media (max-width: 768px) {
+    .activity-photo { width: 192px; height: 192px; margin-right: 18px; }
 } 
