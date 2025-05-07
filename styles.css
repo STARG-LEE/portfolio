@@ -1809,4 +1809,147 @@ body.dark-mode .social-link:hover svg,
 body.dark-mode .btn-download:hover svg,
 body.dark-mode .back-to-top a:hover svg {
     color: #fff !important;
+}
+
+/* 집중 과제 카드형 박스 스타일 */
+.focus-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: 0 4px 18px var(--card-shadow);
+    padding: 32px 28px 22px 28px;
+    margin: 0 8px 24px 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    min-width: 260px;
+    max-width: 480px;
+    flex: 1 1 260px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.focus-card:hover {
+    box-shadow: 0 8px 32px var(--card-shadow);
+    transform: translateY(-4px) scale(1.03);
+}
+.focus-card .card-icon {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: var(--icon-color);
+}
+.focus-card-content {
+    flex: 1;
+}
+.focus-card h3 {
+    font-size: 1.13rem;
+    margin-bottom: 8px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.focus-status {
+    font-size: 0.98rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-top: 2px;
+}
+.focus-status.planned {
+    color: #ffd700;
+}
+@media (max-width: 768px) {
+    .focus-card { max-width: 98vw; min-width: 0; padding: 20px 10px; }
+}
+
+/* 타임라인 개선 */
+.timeline-new {
+    position: relative;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px 0 10px 0;
+}
+.timeline-bar {
+    position: absolute;
+    left: 110px;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, #6d8ed9 0%, #182848 100%);
+    border-radius: 2px;
+    z-index: 1;
+}
+.timeline-list {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    position: relative;
+    z-index: 2;
+}
+.timeline-card {
+    display: flex;
+    align-items: flex-start;
+    background: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: 0 4px 18px var(--card-shadow);
+    padding: 24px 32px 20px 32px;
+    margin-left: 60px;
+    min-height: 80px;
+    position: relative;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.timeline-card:hover {
+    box-shadow: 0 10px 32px var(--card-shadow);
+    transform: translateY(-4px) scale(1.03);
+}
+.timeline-year-badge {
+    min-width: 70px;
+    background: linear-gradient(135deg, #6d8ed9, #182848);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.08rem;
+    border-radius: 18px;
+    padding: 8px 0;
+    text-align: center;
+    margin-right: 32px;
+    margin-top: 0;
+    box-shadow: 0 2px 8px rgba(75,108,183,0.13);
+    position: relative;
+    z-index: 2;
+}
+.timeline-card-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+.timeline-card-icon {
+    font-size: 1.5rem;
+    color: var(--icon-color);
+    margin-top: 2px;
+    margin-right: 10px;
+}
+.timeline-card h3 {
+    font-size: 1.08rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 6px;
+}
+.timeline-card p {
+    font-size: 0.98rem;
+    color: #bbb;
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .timeline-bar { left: 40px; }
+    .timeline-card { margin-left: 0; padding: 16px 8px 12px 8px; }
+    .timeline-year-badge { min-width: 48px; font-size: 0.95rem; margin-right: 12px; }
+    .timeline-card-content { gap: 10px; }
+}
+body.dark-mode .focus-card, body.dark-mode .timeline-card {
+    background: #23272f !important;
+    color: #f0f0f0 !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5) !important;
+}
+body.dark-mode .timeline-year-badge {
+    background: linear-gradient(135deg, #6d8ed9, #182848);
+    color: #fff;
+}
+body.dark-mode .timeline-card h3, body.dark-mode .timeline-card p {
+    color: #f0f0f0 !important;
 } 
