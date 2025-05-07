@@ -160,12 +160,11 @@ header h1 {
 }
 
 .scroll-down {
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    right: 0;
+    position: static;
+    margin-top: 40px;
     text-align: center;
     animation: bounce 2s infinite;
+    z-index: 2;
 }
 
 .scroll-down a {
@@ -958,6 +957,10 @@ footer {
     
     .achievements-grid {
         gap: 20px;
+    }
+    
+    .scroll-down {
+        margin-top: 24px;
     }
 }
 
