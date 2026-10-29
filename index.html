@@ -1,583 +1,195 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="이규성의 포트폴리오 - AI 기반 데이터 분석, 의료 데이터, 시계열 분석 전문가">
-    <meta name="keywords" content="이규성, 포트폴리오, 데이터 분석, AI, 의료 데이터, 약동학, 시계열 분석, 데이터경영학과">
-    <meta name="author" content="이규성">
-    <title>이규성 - 포트폴리오</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#4b6cb7">
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <style>
-        .activity-photo {
-            max-width: 270px;
-            max-height: 270px;
-            width: auto;
-            height: auto;
-            object-fit: contain;
-            border-radius: 10px;
-            margin-right: 32px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-            vertical-align: middle;
-            background: #f5f5f5;
-        }
-        @media (max-width: 768px) {
-            .activity-photo { max-width: 192px; max-height: 192px; margin-right: 18px; }
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>이규성 Gyu-Seong Lee</title>
+<meta name="description" content="차의과학대학교 일반대학원 AI헬스케어융합학과 석사과정 이규성. 약물·항체 예측 AI, 헬스케어 데이터, 생성형 AI 기반 문헌·뉴스 분석.">
+<meta name="theme-color" content="#F6F6F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121314" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="이규성 Gyu-Seong Lee">
+<meta property="og:description" content="차의과학대학교 AI헬스케어융합학과 석사과정. 논문, 과제, 만든 것.">
+<meta property="og:image" content="https://starg-lee.github.io/portfolio/assets/img/og.png">
+<meta property="og:url" content="https://starg-lee.github.io/portfolio/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%231A1B1E'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='40' font-weight='700' text-anchor='middle' fill='%23F6F6F3'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/hahmlet@5.2.8/700.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-sans-kr@5.2.5/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-sans-kr@5.2.5/700.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-mono@5.2.5/400.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- 인트로/로딩 애니메이션 -->
-    <div id="introLoader" class="intro-loader" aria-label="로딩 중" tabindex="0">
-      <div class="intro-logo">LEE PORTFOLIO</div>
-      <div class="intro-spinner"></div>
+<a class="skip" href="#news">본문 바로가기</a>
+<main class="page">
+
+<header class="intro">
+  <h1>이규성</h1>
+  <p class="roman" translate="no">Gyu-Seong Lee</p>
+  <dl class="facts">
+    <div><dt>소속</dt><dd>차의과학대학교 일반대학원 AI헬스케어융합학과 석사과정</dd></div>
+    <div><dt>연구실</dt><dd>AIForA Lab 연구원, 지도교수 박대근</dd></div>
+    <div><dt>연구 분야</dt><dd>약물·항체 예측 AI, 헬스케어 데이터, 생성형 AI 기반 문헌·뉴스 분석</dd></div>
+  </dl>
+  <p class="links" translate="no">
+    <a href="mailto:leeshin26@naver.com">leeshin26@naver.com</a>
+    <a href="https://github.com/STARG-LEE">GitHub</a>
+    <a href="https://www.instagram.com/2_starg/">Instagram</a>
+  </p>
+</header>
+
+<section class="row" id="news">
+  <h2>소식</h2>
+  <ul class="dated">
+    <li><time>2026.11</time><span>경영학전공 선배특강, ‘AI융합비즈니스인재가 되려면 무엇을 공부해야 하나’</span></li>
+    <li><time>2026.07</time><span>IEEE EMBC 2026 포스터 발표, 캐나다 토론토</span></li>
+    <li><time>2026.07</time><span>ISMB 2026 포스터 발표, 미국 워싱턴 D.C.</span></li>
+    <li><time>2026.07</time><span>디지털콘텐츠학회논문지 논문 게재</span></li>
+    <li><time>2026.06</time><span>(주)미들턴 산학 연구 참여: AI 기반 고령자 건강·삶의 질 개선 효과 분석</span></li>
+    <li><time>2026.04</time><span>PLOS ONE 논문 게재(공동 제1저자)</span></li>
+    <li><time>2025.08</time><span>물류학회지 논문 게재(제1저자)</span></li>
+    <li><time>2025.04</time><span>산업통상자원부 항체 제형 AI 과제 참여</span></li>
+    <li><time>2025.03</time><span>AI헬스케어융합학과 석사과정 입학, AIForA Lab 연구원</span></li>
+    <li><time>2025.02</time><span>데이터경영학과 졸업</span></li>
+  </ul>
+</section>
+
+<section class="row" id="publications">
+  <h2>논문</h2>
+  <div>
+    <ol class="pubs">
+      <li class="pub">
+        <a class="thumb" href="https://doi.org/10.1371/journal.pone.0348173" tabindex="-1" aria-hidden="true"><img src="assets/img/paper-plos.webp" alt="" width="1100" height="783" loading="lazy"></a>
+        <div>
+          <p class="pub-title"><a href="https://doi.org/10.1371/journal.pone.0348173">Multi-task gradient boosting with multi-modal molecular representations for simultaneous prediction of drug clearance and volume of distribution</a></p>
+          <p class="pub-authors"><b>Lee G-S</b>‡, Choi H-G‡, Park D-K*, Kim HY*</p>
+          <p class="pub-venue">PLOS ONE 21(4), 2026. SCIE, 공동 제1저자</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="thumb"><img src="assets/img/poster-ismb.webp" alt="ISMB 2026 포스터" width="778" height="1100" loading="lazy"></span>
+        <div>
+          <p class="pub-title">A Generative AI-Extracted Mechanistic Knowledge Graph for mAb Stability: Construction, Analysis, and Prediction with mAb-GATED</p>
+          <p class="pub-authors"><b>Lee GS</b>†, Choi HG†, Park JH, Kim HY*, Park DK*</p>
+          <p class="pub-venue">ISMB 2026 포스터, 워싱턴 D.C. 공동 제1저자</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="thumb"><img src="assets/img/poster-embc.webp" alt="IEEE EMBC 2026 포스터" width="824" height="1100" loading="lazy"></span>
+        <div>
+          <p class="pub-title">A Knowledge Graph Decision Support Tool for IV to SC Conversion of Therapeutic Monoclonal Antibodies</p>
+          <p class="pub-authors"><b>Lee GS</b>†, Choi HG†, Park JH, Kim HY*, Park DK*</p>
+          <p class="pub-venue">IEEE EMBC 2026 포스터, 토론토. 공동 제1저자</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="thumb"></span>
+        <div>
+          <p class="pub-title"><a href="https://doi.org/10.9728/dcs.2026.27.7.1923">신뢰 지향 아바타 챗봇의 설계와 사용자 인식: 전공 선택과 진로 상담 사례</a></p>
+          <p class="pub-authors">성봉주, <b>이규성</b>, 김정환, 박대근</p>
+          <p class="pub-venue">디지털콘텐츠학회논문지 27(7), 2026. KCI</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="thumb"></span>
+        <div>
+          <p class="pub-title"><a href="https://doi.org/10.17825/klr.2025.35.4.51">The Impact of Strategic Agility on Crisis Response and Performance Visibility of K-Beauty Firms: A Media Framing Perspective</a></p>
+          <p class="pub-authors"><b>Lee G-S</b>, Lee H-J</p>
+          <p class="pub-venue">물류학회지 35(4), 2025. KCI, 제1저자</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="thumb"></span>
+        <div>
+          <p class="pub-title"><a href="MZ세대%20소비자의%20SNS%20능동%20적%20참여도를%20높이기%20위한%20인스타그램%20및%20유튜브%20활용%20전략%20-%20편의점%203사(CU,%20GS25,%207ELEVEN)를%20중심으로%20-.pdf">MZ세대 소비자의 SNS 능동적 참여도를 높이기 위한 인스타그램 및 유튜브 활용 전략: 편의점 3사를 중심으로</a></p>
+          <p class="pub-authors">7인 공저</p>
+          <p class="pub-venue">고객만족경영연구, 2021. KCI</p>
+        </div>
+      </li>
+    </ol>
+    <h3>진행 중</h3>
+    <ul class="plain">
+      <li>타크롤리무스 혈중농도 예측: 머신러닝과 베이지안 약동학 비교(제1저자, 투고 준비)</li>
+      <li>mAb-GATED 전체 논문(공동 제1저자)</li>
+      <li>석사학위논문: 다중과제 그래디언트 부스팅을 이용한 약물 청소율·분포용적 동시 예측</li>
+    </ul>
+  </div>
+</section>
+
+<section class="row" id="projects">
+  <h2>과제</h2>
+  <ul class="dated">
+    <li><time>2025-29</time><span>AI 기반 제형 최적화를 통한 정맥주사 항체의약품의 피하주사 전환 제형 기술 개발 <span class="org">산업통상자원부 기술혁신사업, 참여연구자</span></span></li>
+    <li><time>2026</time><span>AI 기반 고령자 건강·삶의 질 개선 효과 분석 연구 <span class="org">(주)미들턴</span></span></li>
+    <li><time>2025</time><span>공무원 인건비·연금 재정전망 모형 연구 <span class="org">국회예산정책처</span></span></li>
+    <li><time>2025</time><span>쇼핑엔티 이용자 로그 분석을 통한 실질적 마케팅 전략 및 AI 솔루션 탐색 <span class="org">(주)티알엔</span></span></li>
+    <li><time>2024</time><span>새마을금고 예금잔액 추정 모형 개발 및 성과분석 모형 구축 <span class="org">새마을금고중앙회</span></span></li>
+    <li><time>2024</time><span>모바일 로그데이터 기반 고객여정분석 연구 <span class="org">(주)티알엔</span></span></li>
+    <li><time>2024</time><span>비선형 추세 수요추정 방법론 사례분석 <span class="org">한국개발연구원(KDI)</span></span></li>
+    <li><time>2022</time><span>사립학교 교직원연금 가입자 전망모형 개선</span></li>
+    <li><time>2022</time><span>조세지출 일몰연장 법률안 비용추계 자동화(R Shiny) <span class="org">국회예산정책처</span></span></li>
+    <li><time>2021</time><span>입학처 종단 연구 데이터 분석 <span class="org">차의과학대학교</span></span></li>
+    <li><time>2020-21</time><span>의정부 용현 산업단지 발전전략</span></li>
+  </ul>
+</section>
+
+<section class="row" id="builds">
+  <h2>만든 것</h2>
+  <ul class="builds">
+    <li><a href="https://bizmodel-bots.vercel.app/">경진대회 AI 친구 봇 16개</a><span>2026 비즈니스모델개발 경진대회 16팀의 봇을 한곳에 모아 복구하고 운영</span></li>
+    <li><a href="https://starg-lee.github.io/mab-causal-network-v2/">항체 안정성 지식그래프</a><span>논문에서 생성형 AI로 뽑은 인과관계를 연결한 네트워크</span></li>
+    <li><a href="https://starg-lee.github.io/public-bid-watch/">공공 공고 트래커</a><span>나라장터·기업마당 등 공고를 매일 자동 수집, 2026년 4월부터 작동</span></li>
+    <li><a href="https://kr-macro-dashboard.vercel.app/">한국 거시경제 대시보드</a><span>ECOS·KOSIS 시계열 102개를 매주 자동 수집</span></li>
+    <li><span class="name">졸업요건 자가진단 도구</span><span>학과 졸업요건 2013-2026년판 데이터화, 학내 전용</span></li>
+    <li><span class="name"><a href="https://github.com/STARG-LEE/claude-skill-hwpx">hwpx 스킬</a>, <a href="https://github.com/STARG-LEE/news-research-skills">뉴스 연구 스킬</a></span><span>한글 문서 자동화와 뉴스 수집·분류를 AI 에이전트용 스킬로 공개</span></li>
+  </ul>
+</section>
+
+<section class="row" id="teaching">
+  <h2>교육</h2>
+  <ul class="dated">
+    <li><time>2026</time><span>수업 실습 환경 구축: AI융합프로젝트II, 언론과PR글쓰기, 상품분석 PBL(수강생 55명)</span></li>
+    <li><time>2026</time><span>AX Studio 강의 영상과 안내서: 내 포털 만들고 게시하기</span></li>
+    <li><time>2026</time><span><a href="https://starg-lee.github.io/mab-stability-guide/">항체 안정성 지식그래프 교육 패키지</a>: 3차시 교안, Colab 실습</span></li>
+  </ul>
+</section>
+
+<section class="row" id="awards">
+  <h2>수상</h2>
+  <ul class="dated">
+    <li><time>2024</time><span>학과 경영사례·데이터분석대회 2등</span></li>
+    <li><time>2022</time><span>제4회 교양 교과목 연구개발공모전 최우수상</span></li>
+    <li><time>2022</time><span>학과 경영사례·데이터분석대회 3등</span></li>
+    <li><time>2021</time><span>경영혁신 연구논문 및 사례연구 대학(원)생 공모전 대상 <span class="org">KMA회남재단·한국능률협회컨설팅</span></span></li>
+    <li><time>2021</time><span>학과 경영사례·데이터분석대회 1등</span></li>
+    <li><time>2021</time><span>농촌재능나눔 대학생 활동지원사업 선정</span></li>
+  </ul>
+</section>
+
+<section class="row" id="activities">
+  <h2>활동·자격</h2>
+  <div>
+    <ul class="dated">
+      <li><time>2020-24</time><span>데이터경영학과 학생회</span></li>
+      <li><time>2020-24</time><span>합창단 차콰이어</span></li>
+      <li><time>2021-22</time><span>봉사동아리 채움 단장(2021), 부단장(2022)</span></li>
+      <li><time>자격</time><span>ADsP, ITQ OA Master, DIAT 스프레드시트, 빅데이터분석기사 필기</span></li>
+    </ul>
+    <div class="photos">
+      <figure><img src="assets/img/act-urp.webp" alt="2021 경영혁신 연구논문 공모전 대상 상패" width="750" height="1000" loading="lazy"><figcaption>2021 경영혁신 공모전 대상</figcaption></figure>
+      <figure><img src="assets/img/act-2022-case.webp" alt="2022 경영사례·데이터분석대회 시상 단체 사진" width="971" height="561" loading="lazy"><figcaption>2022 학과 대회</figcaption></figure>
+      <figure><img src="assets/img/act-rural.webp" alt="2021 농촌재능나눔 활동 단체 사진" width="1000" height="750" loading="lazy"><figcaption>2021 농촌재능나눔</figcaption></figure>
+      <figure><img src="assets/img/act-choir.webp" alt="합창단 차콰이어 공연" width="1000" height="750" loading="lazy"><figcaption>합창단 차콰이어</figcaption></figure>
     </div>
+  </div>
+</section>
 
-    <!-- 스크롤 프로그레스 바 -->
-    <div class="scroll-progress-container">
-        <div class="scroll-progress-bar" id="scrollProgressBar"></div>
-    </div>
+<footer class="foot">
+  <p>© 2026 이규성. 2026년 10월 갱신.</p>
+  <p><a href="https://github.com/STARG-LEE/portfolio/tree/archive-2025-05">2025년판 보기</a></p>
+</footer>
 
-    <!-- 다크모드 토글 버튼 -->
-    <div class="theme-toggle">
-        <button id="themeToggle">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
-        </button>
-    </div>
-
-    <header>
-        <div class="particles-container" id="particles-js"></div>
-        <div class="container">
-            <h1 class="animate__animated animate__fadeInDown">이규성</h1>
-            <p class="tagline animate__animated animate__fadeIn animate__delay-1s">"데이터로 환자의 내일을 설계하고, 구조로 혼란을 혁신한다."</p>
-            <div class="contact-info animate__animated animate__fadeIn animate__delay-1s">
-                <p><span aria-label="전화번호 아이콘" style="display:inline-block;vertical-align:middle;"> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:inherit;"><path d="M22 16.92V21a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3 5.18 2 2 0 0 1 5 3h4.09a2 2 0 0 1 2 1.72c.13.81.37 1.6.7 2.34a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c.74.33 1.53.57 2.34.7A2 2 0 0 1 21 14.91V19a2 2 0 0 1-2 2h-4.09a2 2 0 0 1-2-1.72c-.13-.81-.37-1.6-.7-2.34a2 2 0 0 1 .45-2.11l-1.27-1.27a16 16 0 0 0-6.29-6.29l-1.27 1.27a2 2 0 0 1-2.11.45c-.74-.33-1.53-.57-2.34-.7A2 2 0 0 1 3 9.09V5a2 2 0 0 1 2-2h4.09a2 2 0 0 1 2 1.72c.13.81.37 1.6.7 2.34a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c.74.33 1.53.57 2.34.7A2 2 0 0 1 21 14.91V19a2 2 0 0 1-2 2z"></path></svg></span> 010-3436-5254</p>
-                <p><span aria-label="이메일 아이콘" style="display:inline-block;vertical-align:middle;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:inherit;"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/></svg></span> leeshin26@naver.com</p>
-                <p><span aria-label="위치 아이콘" style="display:inline-block;vertical-align:middle;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:inherit;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span> 경기도 성남시</p>
-            </div>
-        </div>
-        <div class="scroll-down">
-            <a href="#education"><i class="fas fa-chevron-down"></i></a>
-        </div>
-    </header>
-
-    <nav id="navbar" aria-label="메인 네비게이션">
-        <div class="container">
-            <ul>
-                <li><a href="#education">학력·경력</a></li>
-                <li><a href="#research">연구·학회 활동</a></li>
-                <li><a href="#tools">실전 활용 기술</a></li>
-                <li><a href="#projects">프로젝트</a></li>
-                <li><a href="#focus">현재 집중 과제</a></li>
-                <li><a href="#certificates">자격증</a></li>
-                <li><a href="#interests">관심 분야</a></li>
-                <li><a href="#activities">대외활동·수상</a></li>
-                <li><a href="#contacts">연락처</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="education" class="section" data-aos="fade-up">
-        <div class="container">
-            <h2 class="section-title">학력</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-graduation-cap" aria-label="학위 아이콘"></i>
-                    </div>
-                    <h3>차의과학대학교 일반대학원 AI헬스케어융합학과 의료데이터전공</h3>
-                    <p class="timeline-date">2025.03 ~</p>
-                </div>
-                <div id="edu-toggle-content" style="display:none;">
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-graduation-cap" aria-label="학위 아이콘"></i>
-                        </div>
-                        <h3>차의과학대학교 데이터경영학과</h3>
-                        <p class="timeline-date">2020.03 ~ 2025.02</p>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-graduation-cap" aria-label="학위 아이콘"></i>
-                        </div>
-                        <h3>성남효성고등학교</h3>
-                        <p class="timeline-date">2017.03 ~ 2020.02</p>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-graduation-cap" aria-label="학위 아이콘"></i>
-                        </div>
-                        <h3>태평중학교</h3>
-                        <p class="timeline-date">2014.03 ~ 2017.02</p>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-graduation-cap" aria-label="학위 아이콘"></i>
-                        </div>
-                        <h3>성남서초등학교</h3>
-                        <p class="timeline-date">2008.03 ~ 2014.02</p>
-                    </div>
-                </div>
-            </div>
-            <div style="text-align:center; margin-top:20px;">
-                <button id="edu-toggle-btn" class="btn-project" type="button" aria-label="학력 더 보기/접기" tabindex="0"></button>
-            </div>
-        </div>
-    </section>
-
-    <section id="research" class="section bg-light" data-aos="fade-up" data-aos-delay="100">
-        <div class="container">
-            <h2 class="section-title">논문·학회 활동</h2>
-            <div class="accordion" id="research-accordion">
-                <div class="accordion-item">
-                    <button class="accordion-toggle" type="button">1. MZ세대 소비자의 SNS 능동적 참여도를 높이기 위한 인스타그램 및 유튜브 활용 전략 <span class="accordion-year">(2021, 게재, KCI 등재, 한국고객만족경영학회)</span></button>
-                    <div class="accordion-content">
-                        <div class="research-details">
-                            <p><strong>부제:</strong> 편의점 3사(CU, GS25, 7ELEVEN)를 중심으로</p>
-                            <p><strong>설명:</strong> 4차 산업혁명과 코로나19로 인한 비대면 활동 증가로, 편의점 업계는 MZ세대 소비자와의 소통을 위해 SNS(특히 인스타그램, 유튜브) 활용 전략이 중요해졌다. 본 연구는 설문조사와 비정형 데이터 분석을 통해 MZ세대의 SNS 참여 동기와 소비행동을 분석하고, 편의점 산업의 효과적인 SNS 전략을 제안한다.</p>
-                            <p><a href="./MZ세대 소비자의 SNS 능동 적 참여도를 높이기 위한 인스타그램 및 유튜브 활용 전략 - 편의점 3사(CU, GS25, 7ELEVEN)를 중심으로 -.pdf" target="_blank">논문 PDF 바로보기</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-toggle" type="button">2. 생성형 AI 기반 위기·감성 지수 분석을 통한 K-뷰티 산업 위기 및 대응 평가에 관한 연구 <span class="accordion-year">(2025, 진행 중, 한국상품학회)</span></button>
-                    <div class="accordion-content">
-                        <div class="research-details">
-                            <p><strong>설명:</strong> 생성형 AI(ChatGPT API)를 활용해 2019~2024년 K-뷰티 관련 뉴스 데이터를 위기 및 감성 지수로 자동 분류하고, 토픽 모델링·의미 연결망 분석을 통해 K-뷰티 산업의 위기 대응 및 상품 전략 변화를 체계적으로 분석한다. 위기 상황에서는 안전성·품질·신뢰도, 긍정 감성 유도를 위해 맞춤형 상품·스토리텔링·친환경 전략이 중요함을 실증적으로 제시한다.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-toggle" type="button">3. 환자 맞춤형 약물 농도 예측을 위한 약동학 기반 AI 모델 연구: 타크로리무스 사례를 중심으로 <span class="accordion-year">(2025, 진행 중, 한국경영과학회)</span></button>
-                    <div class="accordion-content">
-                        <div class="research-details">
-                            <p><strong>설명:</strong> 타크로리무스 임상 데이터를 활용해 전통적 약동학 모델과 RNN, LSTM, LightGBM 등 AI 기반 시계열 모델의 약물 농도 예측 성능을 비교한다. 딥러닝 기반 모델이 예측 정확도에서 우수함을 보였으며, 약동학 이론과 AI 예측의 통합이 환자 맞춤형 약물요법 개발에 새로운 프레임워크가 될 수 있음을 제시한다.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tools" class="section" data-aos="fade-up" data-aos-delay="100">
-        <div class="container">
-            <h2 class="section-title">실전 활용 기술</h2>
-            <ul class="skills-list">
-                <li>
-                    <strong>R, Excel</strong> – 시계열 데이터 분석, 통계 시각화, 설문지 분석, 데이터 크롤링 (2020~2022 주요 연구 용역)
-                </li>
-                <li>
-                    <strong>R Shiny</strong> – 비용추계 자동화 프로그램 개발, 대시보드 구축 (2022)
-                </li>
-                <li>
-                    <strong>Python</strong> – 예금잔액 추정 모형 개발, 데이터베이스 구축, 데이터 전처리 및 분석 (2024~)
-                </li>
-                <li>
-                    <strong>데이터베이스/ETL</strong> – 모바일 로그 데이터 분석, 데이터베이스 설계 및 전처리 (2024)
-                </li>
-                <li>
-                    <strong>n8n</strong> – 워크플로 자동화 시도 중
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="skills" class="section bg-light" data-aos="fade-up">
-        <div class="container">
-            <h2 class="section-title">기술 숙련도</h2>
-            <div class="card-grid">
-                <div class="card hover-lift">
-                    <i class="fab fa-python card-icon" aria-label="Python 아이콘"></i>
-                    <h3>Python</h3>
-                </div>
-                <div class="card hover-lift">
-                    <i class="fab fa-r-project card-icon" aria-label="R 아이콘"></i>
-                    <h3>R</h3>
-                </div>
-                <div class="card hover-lift">
-                    <i class="fas fa-file-excel card-icon" aria-label="Excel 아이콘"></i>
-                    <h3>Excel</h3>
-                </div>
-                <div class="card hover-lift">
-                    <i class="fas fa-database card-icon" aria-label="DB 아이콘"></i>
-                    <h3>ETL/DB</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="section bg-light" data-aos="fade-up" data-aos-delay="100">
-        <div class="container">
-            <h2 class="section-title">주요 연구 용역 및 프로젝트</h2>
-            <div class="project-grid">
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="150">
-                    <div class="project-icon">
-                        <i class="fas fa-city" aria-label="도시 아이콘"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>의정부 용현 산단 발전전략</h3>
-                        <p class="project-date">2020.08~2021.04</p>
-                        <p class="project-desc">경영분석, 실태, 수요, 경쟁력 조사수행</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">분석</span>
-                            <span class="tech-tag">조사</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="project-icon">
-                        <i class="fas fa-chart-line" aria-label="차트 아이콘"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>차의과학대학교 입학처 종단 연구</h3>
-                        <p class="project-date">2021.02~2021.03</p>
-                        <p class="project-desc">시계열 데이터 시각화 및 분석 (R, Excel 활용)</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">R</span>
-                            <span class="tech-tag">Excel</span>
-                            <span class="tech-tag">시계열</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="250">
-                    <div class="project-icon">
-                        <i class="fas fa-trophy" aria-label="트로피 아이콘"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>제17회 경영혁신 연구논문 및 사례연구 대학(원)생 공모전</h3>
-                        <p class="project-date">2021.04~2021.12</p>
-                        <p class="project-desc">논문 전체 기획, 설문지 제작·분석, 뉴스·SNS 데이터 크롤링 및 시각화</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">R</span>
-                            <span class="tech-tag">크롤링</span>
-                            <span class="tech-tag">데이터 분석</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="project-icon">
-                        <i class="fas fa-code" aria-label="코드 아이콘"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>NAVO 조세지출 일몰연장 법률안 비용추계 자동화</h3>
-                        <p class="project-date">2022.04~2022.06</p>
-                        <p class="project-desc">R Shiny 기반 시각화 및 자동화 프로그램 개발</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">R Shiny</span>
-                            <span class="tech-tag">대시보드</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="350">
-                    <div class="project-icon">
-                        <i class="fas fa-calculator" aria-label="계산기 아이콘"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>사립학교 교직원연금 가입자 전망모형 개선</h3>
-                        <p class="project-date">2022.06~2022.12</p>
-                        <p class="project-desc">시각화 및 전망 모형 개선 연구 (R, Excel 활용)</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">R</span>
-                            <span class="tech-tag">Excel</span>
-                            <span class="tech-tag">예측 모델링</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
-                    <div class="project-icon">
-                        <i class="fas fa-chart-bar" aria-label="차트 아이콘"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>새마을금고 지역금고별 예금잔액 추정 모형</h3>
-                        <p class="project-date">2024.07~2024.11</p>
-                        <p class="project-desc">파이썬 기반 예금잔액 추정 모형 개발 및 시각화</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">시각화</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="450">
-                    <div class="project-icon">
-                        <i class="fas fa-mobile-alt" aria-label="모바일 아이콘"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>모바일 로그 데이터 기반 고객 여정 분석</h3>
-                        <p class="project-date">2024.09~2024.12</p>
-                        <p class="project-desc">데이터베이스 구축, 데이터 전처리 및 분석 전반 (Python 활용)</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">ETL</span>
-                            <span class="tech-tag">DB</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="focus" class="section" data-aos="fade-up" data-aos-delay="100">
-        <div class="container">
-            <h2 class="section-title">현재 집중 과제</h2>
-            <div class="card-grid">
-                <div class="card focus-card">
-                    <div class="card-icon focus-icon">
-                        <i class="fas fa-flask" aria-label="실험 아이콘"></i>
-                    </div>
-                    <div class="focus-card-content">
-                        <h3>생성형 AI 기반 위기·감성 지수 분석을 통한 K-뷰티 산업 위기 및 대응 평가에 관한 연구</h3>
-                        <p class="focus-status">진행 중</p>
-                    </div>
-                </div>
-                <div class="card focus-card">
-                    <div class="card-icon focus-icon">
-                        <i class="fas fa-user-md" aria-label="의사 아이콘"></i>
-                    </div>
-                    <div class="focus-card-content">
-                        <h3>환자 맞춤형 약물 농도 예측을 위한 약동학 기반 AI 모델 연구: 타크로리무스 사례를 중심으로</h3>
-                        <p class="focus-status">진행 중</p>
-                    </div>
-                </div>
-                <div class="card focus-card">
-                    <div class="card-icon focus-icon">
-                        <i class="fas fa-cogs" aria-label="기어 아이콘"></i>
-                    </div>
-                    <div class="focus-card-content">
-                        <h3>AI 기반 제형 최적화를 통한 정맥주사 항체의약품의 피하주사 전환 제형 기술 개발</h3>
-                        <p class="focus-status planned">예정</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="certificates" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">자격증</h2>
-            <div class="card-grid">
-                <div class="card hover-lift">
-                    <i class="fas fa-certificate" aria-label="자격증 아이콘"></i>
-                    <h3>ADsP(데이터분석 준전문가)</h3>
-                </div>
-                <div class="card hover-lift">
-                    <i class="fas fa-certificate" aria-label="자격증 아이콘"></i>
-                    <h3>ITQ OA Master</h3>
-                </div>
-                <div class="card hover-lift">
-                    <i class="fas fa-certificate" aria-label="자격증 아이콘"></i>
-                    <h3>DIAT-스프레드시트</h3>
-                </div>
-                <div class="card hover-lift">
-                    <i class="fas fa-certificate" aria-label="자격증 아이콘"></i>
-                    <h3>빅데이터분석기사 (필기 합격, 실기 준비 중)</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="interests" class="section">
-        <div class="container">
-            <h2 class="section-title">관심 분야</h2>
-            <div class="card-grid">
-                <div class="card hover-lift">
-                    <i class="fas fa-brain" aria-label="뇌 아이콘"></i>
-                    <h3>AI 기반 데이터 분석</h3>
-                </div>
-                <div class="card hover-lift">
-                    <i class="fas fa-dna" aria-label="DNA 아이콘"></i>
-                    <h3>AI 기반 신약 개발</h3>
-                </div>
-                <div class="card hover-lift">
-                    <i class="fas fa-notes-medical" aria-label="의료 아이콘"></i>
-                    <h3>의료 데이터</h3>
-                </div>
-                <div class="card hover-lift">
-                    <i class="fas fa-chart-line" aria-label="차트 아이콘"></i>
-                    <h3>시계열 분석</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="activities" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">대외활동 및 수상</h2>
-            <div class="timeline-new">
-                <div class="timeline-bar timeline-bar-right"></div>
-                <div class="timeline-list">
-                    <div class="timeline-card">
-                        <div class="timeline-year-badge">2024</div>
-                        <div class="timeline-card-content">
-                            <img src="2024 경사개대.png" alt="2024 경영사례개발 대회" class="activity-photo">
-                            <div>
-                                <h3>경영사례개발 & 데이터 분석 대회 2등</h3>
-                                <p>차의과학대학교 데이터경영학과 학술대회 2등 수상</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-year-badge">2020-2024</div>
-                        <div class="timeline-card-content">
-                            <img src="학생회.jpg" alt="차콰이어 학생회" class="activity-photo">
-                            <div>
-                                <h3>차의과학대학교 데이터경영학과 학생회</h3>
-                                <p>2020년부터 2024년까지 학생회 활동</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-year-badge">2020-2024</div>
-                        <div class="timeline-card-content">
-                            <img src="차콰.jpg" alt="합창단 차콰이어" class="activity-photo">
-                            <div>
-                                <h3>차의과학대학교 합창단 차콰이어</h3>
-                                <p>2020년부터 2024년까지 소속</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-year-badge">2022</div>
-                        <div class="timeline-card-content">
-                            <img src="2022 경사개대.png" alt="2022 경영사례개발 대회" class="activity-photo">
-                            <div>
-                                <h3>경영사례개발 & 데이터 분석 대회 3등</h3>
-                                <p>차의과학대학교 데이터경영학과 학술대회 3등 수상</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-year-badge">2022</div>
-                        <div class="timeline-card-content">
-                            <img src="2022 채움.jpg" alt="2022 봉사동아리 채움" class="activity-photo">
-                            <div>
-                                <h3>봉사동아리 채움 봉사부단장</h3>
-                                <p>2022년 봉사부단장 역임</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-year-badge">2022</div>
-                        <div class="timeline-card-content">
-                            <img src="교양개발공모전.jpg" alt="교양 교과목 연구개발공모전" class="activity-photo">
-                            <div>
-                                <h3>교양 교과목 연구개발공모전 최우수상</h3>
-                                <p>차의과학대학교 제4회 교양 교과목 연구개발공모전에서 최우수상 수상</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-year-badge">2021</div>
-                        <div class="timeline-card-content">
-                            <img src="2021 경사개대.jpg" alt="2021 경영사례개발 대회" class="activity-photo">
-                            <div>
-                                <h3>경영사례개발 & 데이터 분석 대회 1등</h3>
-                                <p>차의과학대학교 데이터경영학과 학술대회 1등 수상</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-year-badge">2021</div>
-                        <div class="timeline-card-content">
-                            <img src="2021 채움.jpg" alt="2021 봉사동아리 채움" class="activity-photo">
-                            <div>
-                                <h3>봉사동아리 채움 봉사단장</h3>
-                                <p>2021년 봉사단장 역임</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-year-badge">2021</div>
-                        <div class="timeline-card-content">
-                            <img src="농촌재능나눔.png" alt="농촌재능나눔 사업" class="activity-photo">
-                            <div>
-                                <h3>농촌재능나눔 사업 선정</h3>
-                                <p>한국농어촌공사·대사협 주관, "농촌마을 어르신 가구의 마을재생을 위한 벽화그리기" 사업 선정</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-card">
-                        <div class="timeline-year-badge">2021</div>
-                        <div class="timeline-card-content">
-                            <img src="KMAC_urp.jpg" alt="URP 학생 주도 연구" class="activity-photo">
-                            <div>
-                                <h3>URP 학생 주도 연구 참여</h3>
-                                <p>제17회 경영혁신 연구논문 및 사례연구 대학(원)생 공모전 팀 대상</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contacts" class="contact-section" data-aos="fade-up">
-        <div class="container">
-            <h2 class="section-title">연락처 및 소셜 미디어</h2>
-            <div class="contact-grid">
-                <div class="contact-info-card" data-aos="fade-up" data-aos-delay="100">
-                    <h3>연락처 정보</h3>
-                    <div class="contact-details">
-                        <p><span aria-label="전화번호 아이콘" style="display:inline-block;vertical-align:middle;"> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:inherit;"><path d="M22 16.92V21a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3 5.18 2 2 0 0 1 5 3h4.09a2 2 0 0 1 2 1.72c.13.81.37 1.6.7 2.34a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c.74.33 1.53.57 2.34.7A2 2 0 0 1 21 14.91V19a2 2 0 0 1-2 2h-4.09a2 2 0 0 1-2-1.72c-.13-.81-.37-1.6-.7-2.34a2 2 0 0 1 .45-2.11l-1.27-1.27a16 16 0 0 0-6.29-6.29l-1.27 1.27a2 2 0 0 1-2.11.45c-.74-.33-1.53-.57-2.34-.7A2 2 0 0 1 3 9.09V5a2 2 0 0 1 2-2h4.09a2 2 0 0 1 2 1.72c.13.81.37 1.6.7 2.34a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c.74.33 1.53.57 2.34.7A2 2 0 0 1 21 14.91V19a2 2 0 0 1-2 2z"></path></svg></span> 010-3436-5254</p>
-                        <p><span aria-label="이메일 아이콘" style="display:inline-block;vertical-align:middle;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:inherit;"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/></svg></span> leeshin26@naver.com</p>
-                        <p><span aria-label="위치 아이콘" style="display:inline-block;vertical-align:middle;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:inherit;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span> 경기도 성남시</p>
-                    </div>
-                </div>
-                <div class="contact-info-card" data-aos="fade-up" data-aos-delay="200">
-                    <h3>소셜 미디어</h3>
-                    <p>다양한 플랫폼에서 저와 연결해 보세요:</p>
-                    <div class="social-links">
-                        <a href="https://github.com/STARG-LEE" target="_blank" class="social-link" aria-label="깃허브 아이콘"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:inherit;"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.7.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .26.18.57.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg></a>
-                        <a href="https://www.instagram.com/2_starg/" target="_blank" class="social-link" aria-label="인스타그램 아이콘"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:inherit;"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg></a>
-                    </div>
-                    <p style="margin-top: 25px;">메시지를 보내시면 빠른 시일 내에 회신드리겠습니다.</p>
-                </div>
-            </div>
-            <!-- 방명록/피드백 폼 구글 폼 임베드로 교체 -->
-            <div class="guestbook-section" data-aos="fade-up" data-aos-delay="300" style="margin-top:40px;">
-                <h3 style="margin-bottom:18px;">방명록 / 피드백</h3>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecxum1vNNWSM_5EpAQcZPy2D1Ld-cw810DvLOGxNHEjmy1jw/viewform?embedded=true" width="100%" height="720" frameborder="0" marginheight="0" marginwidth="0" style="background:#fff;border-radius:12px;">로드 중…</iframe>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 이규성. All Rights Reserved.</p>
-            <div class="back-to-top">
-                <a href="#"><span aria-label="위로가기 아이콘" style="display:inline-block;vertical-align:middle;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:inherit;"><polyline points="18 15 12 9 6 15"/><line x1="12" y1="9" x2="12" y2="21"/></svg></span></a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="script.js"></script>
-
-    <!-- 프로젝트 상세 모달 -->
-    <div id="projectModal" class="modal" style="display:none;">
-        <div class="modal-content">
-            <span class="modal-close" id="projectModalClose" tabindex="0" aria-label="닫기">&times;</span>
-            <h2 id="modalProjectTitle"></h2>
-            <p id="modalProjectDate"></p>
-            <div id="modalProjectDesc"></div>
-            <div id="modalProjectTech"></div>
-        </div>
-    </div>
-
-    <!-- PWA: Service Worker 등록 -->
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          navigator.serviceWorker.register('service-worker.js');
-        });
-      }
-    </script>
+</main>
 </body>
-</html> 
+</html>
