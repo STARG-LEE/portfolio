@@ -77,14 +77,15 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 /* 연표 */
 .tl-section { padding: 48px 0 52px; border-bottom: 1px solid var(--line); }
 .tl-section > h2 { margin-bottom: 32px; }
-.tl-year { display: grid; grid-template-columns: 120px 1fr; column-gap: 40px; }
+.tl-year { position: relative; display: grid; grid-template-columns: 120px 1fr; column-gap: 40px; padding-bottom: 48px; }
+.tl-year:last-child { padding-bottom: 4px; }
+.tl-year::before { content: ""; position: absolute; top: 0; bottom: 0; left: 160px; width: 2px; background: var(--line); }
 .tl-year h3 {
   font-family: var(--display); font-weight: 700;
   font-size: 2.25rem; line-height: 1; letter-spacing: -0.01em; color: var(--accent);
   position: sticky; top: 20px; align-self: start;
 }
-.tl-events { border-left: 2px solid var(--line); padding: 4px 0 48px 30px; }
-.tl-year:last-child .tl-events { padding-bottom: 4px; }
+.tl-events { padding: 4px 0 0 32px; }
 .ev { position: relative; display: grid; grid-template-columns: 64px 1fr; column-gap: 12px; padding-bottom: 26px; }
 .ev:last-child { padding-bottom: 0; }
 .ev::before {
@@ -142,9 +143,10 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
   .toc { margin-top: 32px; gap: 4px 18px; }
   .tl-section { padding: 36px 0 40px; }
   .tl-section > h2 { margin-bottom: 24px; }
-  .tl-year { grid-template-columns: 1fr; }
+  .tl-year { grid-template-columns: 1fr; padding-bottom: 36px; }
+  .tl-year::before { left: 0; top: 42px; }
   .tl-year h3 { position: static; font-size: 1.75rem; margin-bottom: 14px; }
-  .tl-events { padding: 2px 0 36px 22px; }
+  .tl-events { padding: 2px 0 0 24px; }
   .ev { grid-template-columns: 1fr; }
   .ev::before { left: -29px; top: 6px; }
   .ev time:empty { display: none; }
